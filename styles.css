@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+body{
+    background: #ffffff;
+}
+
+
+.Container{
+    Width:375px;
+    background-color:#E5E5E5 ;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+header{
+    background-color:#1B83E2 ;
+}
+
+h1{
+    height: 66px;
+    padding-top: 22px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+}
+
+main{
+    padding: 24px;
+}
+
+label{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select{
+    display: block;
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 26px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 16px ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 26px;
+    font-size: 18px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    color:#F4F4F4;
+    width: 100%;
+    height: 48px;
+    background: #1B83E2;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.9;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.currency-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.currency-value{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+.arrow-img{
+    display: block;
+    margin: 15px auto;
+}
