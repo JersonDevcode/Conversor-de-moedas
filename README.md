@@ -24,14 +24,13 @@
 - [x] Criação do HTML
 - [x] Estilização com CSS    
 - [x] Funcionalidades adicionadas usando JS
-
+- [x] Recebeu atualização e agora recebe a cotação real do dolar, euro  e bitcoin
 
 <h2 align="center">🤖 FUNCIONALIDADES:</h2>
 
 * Conversão de moeda brasileira para dolar, euro e bitcoin
+* Recebeu atualização dia 13/05 e agora recebe a cotação real do dolar euro e bitcoin
 <br>
-<p><strong>***OBS: O VALOR CONVERTIDO NÃO CONRESPONDE A COTAÇÃO ATUAL DAS RESPECTIVAS MOEDAS***<strong></p>
-
 
  <table>
   <tr>
