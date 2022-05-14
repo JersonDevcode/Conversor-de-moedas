@@ -8,25 +8,27 @@
 
 body{
     background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
 .Container{
     Width:375px;
-    background-color:#E5E5E5 ;
-    margin: 0 auto;
-    margin-top: 100px;
-    
+    background-color:#E5E5E5 ;  
 }
 
 header{
     background-color:#1B83E2 ;
+    height: 66px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
 }
 
 h1{
-    height: 66px;
-    padding-top: 22px;
-    text-align: center;
     font-weight: normal;
     font-size: 24px;
     line-height: 18px;
@@ -99,12 +101,19 @@ button:active{
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
     border: 1px solid #1B83E2;
     border-radius: 4px;
 }
 
 .currency-container{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
     padding: 10px;
 }
 
@@ -120,9 +129,4 @@ section{
     font-size: 20px;
     line-height: 18px;
     color: #1B83E2;
-}
-
-.arrow-img{
-    display: block;
-    margin: 15px auto;
 }
