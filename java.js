@@ -7,7 +7,7 @@ const select = document.getElementById('currency-select')
     const currencyvaluetext = document.getElementById('currency-value-text')
 
 
-    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(respomse => respomse.json())
+    const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
 
     const dolar = data.USDBRL.high
     const euro = data.EURBRL.high
